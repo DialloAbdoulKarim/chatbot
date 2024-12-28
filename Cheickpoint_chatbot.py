@@ -14,7 +14,7 @@ nltk.download('stopwords')
 stopwords_fr = set(stopwords.words('french'))
 
 # Charger le modèle français de spaCy
-nlp = spacy.load("fr_core_news_sm")
+nlp = spacy.load("fr_core_news_sm-3.8.0-py3-none-any.whl")
 
 # Prétraitement du texte avec spaCy
 def preprocess(text):
