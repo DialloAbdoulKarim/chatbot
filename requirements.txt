@@ -2,4 +2,4 @@
 spacy
 scikit-learn
 nltk
-en-core-web-sm
+fr_core_news_sm
